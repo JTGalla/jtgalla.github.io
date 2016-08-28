@@ -1,3 +1,4 @@
+/* ===INTRO=== */
 html {
     background-image: url("rsz_keyboard.jpg");
     background-size: 100%;
@@ -12,6 +13,7 @@ html {
     height: 100%;
     display: block;
 }
+/* ===NAVBAR=== */
 ul {
     list-style-type: none;
     margin: 0;
@@ -59,6 +61,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* ===INTRO=== */
 #gears img {
     width: 150px;
     display: block;
@@ -71,8 +74,8 @@ img {
     font-family: 'Pacifico', cursive;
     margin-top: -60px;
 }
-.intro {
-    background-color: #5BC14D;
+/* ===CONTENT=== */
+.content {
     width: 100%;
     min-width: 100vh;
     max-width: 100%;
@@ -80,6 +83,13 @@ img {
     position: absolute;
     left: 0;
     margin-top: 8px;
+    display: block;
+}
+/* ===ABOUT=== */
+.intro {
+    background-color: #5BC14D;
+    width: 100%;
+    height: 100%;
 }
 .intro h1 {
     color: white;
@@ -93,5 +103,141 @@ img {
     width: 40%;
     height: 1px;
     background-color: darkgreen;
-    margin: -45px auto 0 auto;
+    margin: -55px auto 0 auto;
+}
+#friends {
+    float: left;
+    display: inline;
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 40px;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 5px #888;
+}
+.line2 {
+    width: 1px;
+    height: 400px;
+    background-color: darkgreen;
+    margin-left: 525px;
+    margin-top: 63px;
+}
+.abouttext {
+    float: right;
+    margin-top: 25px;
+    width: 55%;
+    margin-right: 25px;
+    display: inline-block;
+}
+.intro h3 {
+    display: inline;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.abouttext img {
+    width: 140px;
+    margin-top: 30px;
+    display: inline;
+}
+#css {
+    margin-bottom: -20px;
+}
+/* ===WORK=== */
+.workpage {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.workpage h1 {
+    margin: auto;
+    color: black;
+    font-size: 75px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    display: block;
+}
+.line3 {
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto 0 auto;
+}
+.workprocess {
+    display: table;
+    width: 80%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+.workprocess img {
+    width: 130px;
+}
+.workprocess li {
+    display: table-cell;
+    color: black;
+    width: 20%;
+    font-size: 20px;
+    padding: 15px;
+}
+.texttitle {
+    font-size: 40px;
+}
+/* ===CONTACT=== */
+.contactpage {
+    background-color: #498AF2;
+    width: 100%;
+    height: 100%;
+}
+.contactpage h1 {
+    margin: auto;
+    color: white;
+    font-size: 75px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    display: block;
+}
+.line4 {
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: darkblue;
+    margin: 0 auto 0 auto;
+}
+.contactpage img {
+    width: 800px;
+    margin: 20px auto 0 auto;
+    position: relative;
+}
+.contactpage img:hover {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+/* ===BLOG=== */
+.blogpage {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.blogpage h1 {
+    margin: auto;
+    color: white;
+    font-size: 75px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    display: block;
+}
+.line5 {
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+}
+.blogpage h2 {
+    text-align: center;
+    margin: 180px auto 0 auto;
+    color: white;
+    font-size: 100px;
 }
